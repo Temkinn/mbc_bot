@@ -1,3 +1,13 @@
-name: MBCBot
+backend:
+    functions:
+        - entry: index.js
+          handler: handler
+          name: function-serverless-http
+          path: .
+          type: aws
+    language:
+        name: js
+    path: ./
+name: MBC-Bot
 region: us-east-1
 yamlVersion: 2
