@@ -1,12 +1,12 @@
 backend:
     functions:
-        - entry: index.js
+        - entry: index.py
           handler: handler
-          name: function-serverless-http
-          path: .
-          type: aws
+          name: hello-world-function
+          path: ./
     language:
-        name: js
+        name: python
+        packageManager: pip
     path: ./
 name: MBC-Bot
 region: us-east-1

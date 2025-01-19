@@ -1,0 +1,12 @@
+certifi==2024.8.30
+charset-normalizer==3.3.2
+Faker==0.7.4
+greenlet==3.1.1
+idna==3.10
+pyTelegramBotAPI==4.23.0
+python-dateutil==2.9.0.post0
+requests==2.32.3
+six==1.17.0
+SQLAlchemy==2.0.36
+typing_extensions==4.12.2
+urllib3==2.2.3
